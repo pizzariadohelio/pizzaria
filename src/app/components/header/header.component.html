@@ -1,0 +1,41 @@
+<mz-navbar id="main-header">
+  <span mz-button class="hide-on-large-only" id="btn-sidenav"
+    ><i class="material-icons left pointer">menu</i></span
+  >
+  <span class="center logo">Pizzaria do Hélio</span>
+  <mz-navbar-item-container [align]="'right'" class="hide-on-med-and-down">
+    <mz-navbar-item><a href="#">Menu</a></mz-navbar-item>
+  </mz-navbar-item-container>
+</mz-navbar>
+
+<mz-sidenav
+  [closeOnClick]="true"
+  [id]="'sidenav-menu'"
+  [collapseButtonId]="'btn-sidenav'"
+>
+  <br />
+  <mz-sidenav-subheader>Menu</mz-sidenav-subheader>
+  <!-- <mz-sidenav-divider></mz-sidenav-divider> -->
+  <mz-sidenav-link>
+    <a routerLink="/"><img class="img-icon" width="26" top="10" src="assets/imgs/home.svg" alt="home-icon">&nbsp;&nbsp;&nbsp;&nbsp;Home</a>
+  </mz-sidenav-link>
+  <mz-sidenav-link>
+    <a [routerLink]="['/menu-page']" [queryParams]="{menu: 'pizza'}"><img class="img-icon" width="26" top="10" src="assets/imgs/pizza-slice.svg" alt="pizza-icon">&nbsp;&nbsp;&nbsp;&nbsp;Pizzas</a>
+  </mz-sidenav-link>
+  <mz-sidenav-link>
+    <a routerLink="/menu-page" [queryParams]="{menu: 'lanches'}"><img class="img-icon" width="26" top="10" src="assets/imgs/burger.svg" alt="burger-icon">&nbsp;&nbsp;&nbsp;&nbsp;Lanches</a>
+  </mz-sidenav-link>
+  <mz-sidenav-link>
+    <a routerLink="/menu-page" [queryParams]="{menu: 'panquecas'}"><img class="img-icon" width="26" top="10" src="assets/imgs/pancakes.svg" alt="burger-icon">&nbsp;&nbsp;&nbsp;&nbsp;Panquecas</a>
+  </mz-sidenav-link>
+  <mz-sidenav-link>
+    <a routerLink="/menu-page"><img class="img-icon" width="26" top="10" src="assets/imgs/fried-potatoes.svg" alt="potatoes-icon">&nbsp;&nbsp;&nbsp;&nbsp;Porções</a>
+  </mz-sidenav-link>
+  <mz-sidenav-link>
+    <a routerLink="/menu-page"><img class="img-icon" width="26" top="10" src="assets/imgs/beer.svg" alt="beer-icon">&nbsp;&nbsp;&nbsp;&nbsp;Bebidas</a>
+  </mz-sidenav-link>
+  <mz-sidenav-divider></mz-sidenav-divider>
+  <mz-sidenav-link>
+    <a routerLink="/">Venha conhecer nossas delícias ;p</a>
+  </mz-sidenav-link>
+</mz-sidenav>

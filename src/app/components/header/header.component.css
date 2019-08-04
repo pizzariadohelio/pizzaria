@@ -1,0 +1,11 @@
+.pointer {
+  cursor: pointer;
+}
+.active,
+.actived {
+  background: #ed0819;
+  color: #fff;
+}
+.img-icon{
+  margin-bottom: -7px;
+}
