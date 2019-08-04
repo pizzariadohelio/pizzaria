@@ -36,7 +36,8 @@ import { AppRoutingModule } from './app-routing.module';
     MzDropdownModule,
     ServiceWorkerModule.register("ngsw-worker.js", {
       enabled: environment.production
-    })
+    }),
+    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
   ],
   providers: [ ],
   bootstrap: [AppComponent]
