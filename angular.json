@@ -31,7 +31,8 @@
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/materialize-css/dist/js/materialize.min.js"
-            ]
+            ],
+            "es5BrowserSupport": true
           },
           "configurations": {
             "production": {
@@ -56,7 +57,9 @@
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "src/ngsw-config.json"
             }
           }
         },
