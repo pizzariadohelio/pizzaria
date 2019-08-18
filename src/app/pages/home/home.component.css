@@ -1,6 +1,6 @@
 main {
   width: 100%;
-  height: 90vh;
+  height: 91.2vh;
   padding: 3% 4%;
   text-align: center;
   background: url("../../../assets/imgs/background-pizza3.jpg") center bottom;
@@ -13,12 +13,42 @@ main {
   }
 }
 
+@media (min-height: 667px){
+  main img.logo-image{
+    margin: 40px auto!important;
+  }
+  main {
+    height: 91.5vh;
+  }
+}
+
 @media (min-height: 731px){
   main {
-    height: 92vh;
+    height: 92.3vh;
   }
   .fone{
     margin-top: 140px!important;
+  }
+}
+
+@media (min-height: 812px){
+  main img.logo-image{
+    margin: 60px auto!important;
+  }
+  main {
+    height: 93vh;
+  }
+}
+
+@media (min-height: 823px){
+  main {
+    height: 93.2vh;
+  }
+}
+
+@media (min-height: 1024px){
+  main {
+    height: 94.5vh;
   }
 }
 
