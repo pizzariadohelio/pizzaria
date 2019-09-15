@@ -1,0 +1,132 @@
+{
+  "configVersion": 1,
+  "timestamp": 1568560501415,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.c1532030020de38afab5.js",
+        "/main-es5.708176dabe88ca58d75b.js",
+        "/polyfills-es2015.1df8671266ff0d96050e.js",
+        "/polyfills-es5.cec89b470e258e73dbed.js",
+        "/runtime-es2015.10a1f01eef199006286d.js",
+        "/runtime-es5.9ad22a88fcc70a015907.js",
+        "/scripts.70a6412b0712df4356f7.js",
+        "/styles.bd9f06ac540497c8db0a.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/Roboto-Bold.c0f1e4a4fdfb8048c72e.woff2",
+        "/Roboto-Bold.eed9aab5449cc9c8430d.woff",
+        "/Roboto-Light.3c37aa69cd77e6a53a06.woff2",
+        "/Roboto-Light.ea36cd9a0e9eee97012a.woff",
+        "/Roboto-Medium.1561b424aaef2f704bbd.woff2",
+        "/Roboto-Medium.cf4d60bc0b1d4b231408.woff",
+        "/Roboto-Regular.3cf6adf61054c328b1b0.woff",
+        "/Roboto-Regular.5136cbe62a63604402f2.woff2",
+        "/Roboto-Thin.1f35e6a11d27d2e10d28.woff2",
+        "/Roboto-Thin.44b78f142603eb69f593.woff",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-167x167.png",
+        "/assets/icons/icon-180x180.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/imgs/apple_splash_1125.png",
+        "/assets/imgs/apple_splash_1242.png",
+        "/assets/imgs/apple_splash_640.png",
+        "/assets/imgs/apple_splash_750.png",
+        "/assets/imgs/background-pizza3.jpg",
+        "/assets/imgs/beer.svg",
+        "/assets/imgs/burger.svg",
+        "/assets/imgs/cartoes2.png",
+        "/assets/imgs/fried-potatoes.svg",
+        "/assets/imgs/home.svg",
+        "/assets/imgs/pancakes.svg",
+        "/assets/imgs/pizza-slice.svg",
+        "/assets/imgs/pizzaria-logo3.png",
+        "/background-pizza3.630d934a363b6fcea1d0.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Roboto-Bold.c0f1e4a4fdfb8048c72e.woff2": "5a8465896222227807ff29908d8648db510561a5",
+    "/Roboto-Bold.eed9aab5449cc9c8430d.woff": "e0655b6097eddf9df88cd194eff08436ea086a1c",
+    "/Roboto-Light.3c37aa69cd77e6a53a06.woff2": "f6daab924b79b4822dc9faa56bbefe1d1efa3e42",
+    "/Roboto-Light.ea36cd9a0e9eee97012a.woff": "c7494493f62984e2f581598739b5dd340e9e891b",
+    "/Roboto-Medium.1561b424aaef2f704bbd.woff2": "7c512e2ebddd4dbd08d0f7bfb5b772501f707078",
+    "/Roboto-Medium.cf4d60bc0b1d4b231408.woff": "b17bd60107c9ec0fd8c58a9e1fd222da7f1b99f4",
+    "/Roboto-Regular.3cf6adf61054c328b1b0.woff": "6cfb2a5eb3a601ba450dda2d80bacef26c5ba873",
+    "/Roboto-Regular.5136cbe62a63604402f2.woff2": "c193deaa915e7183828400922700567900fb6cc3",
+    "/Roboto-Thin.1f35e6a11d27d2e10d28.woff2": "c321aeb611cf1dcb25717484a4ced717d8ca76fa",
+    "/Roboto-Thin.44b78f142603eb69f593.woff": "cb8f61464f349af887ba96f6a2ae1e318b3cc8d9",
+    "/assets/icons/icon-128x128.png": "8d29f34d06e072e2bf3e683fc7613c8490efcb58",
+    "/assets/icons/icon-144x144.png": "cbe7776fb23e51abaf767d69ba629ca86c89f7c3",
+    "/assets/icons/icon-152x152.png": "f483864a165faee5bdcc2fe37574ec1ca40a0508",
+    "/assets/icons/icon-167x167.png": "481856916e54e6dd619b803e7434f7f5f0a71415",
+    "/assets/icons/icon-180x180.png": "bd3524b14c9beb4b7bce5f0ed12ecf98a57eb6dd",
+    "/assets/icons/icon-192x192.png": "186098076b94da0d3d261554cbd6ddb0c055db3e",
+    "/assets/icons/icon-384x384.png": "bfcfedc5a0e3e0e33b4b598c02b8ea074b460d2a",
+    "/assets/icons/icon-512x512.png": "607946455300753e3054c2e008793254f8fd314e",
+    "/assets/icons/icon-72x72.png": "74c6dc1b837fd97e7b34481e594f294269debe28",
+    "/assets/icons/icon-96x96.png": "e5a5d51fd4c2dc4b75847d51df22668a750cefab",
+    "/assets/imgs/apple_splash_1125.png": "7e1b41abeaa45d13218ba79181e22e3b670bd4da",
+    "/assets/imgs/apple_splash_1242.png": "9d9d71b87dcd8df1c60004e6cdab02ab16a1b109",
+    "/assets/imgs/apple_splash_640.png": "ddda046175ee0753da5529c31ab392d7541174f1",
+    "/assets/imgs/apple_splash_750.png": "ded488bff481ef6c1db383cdcc015b91b4a04346",
+    "/assets/imgs/background-pizza3.jpg": "57b5d7b7b0ba01993fcf9cc322bab0f2ffe369a5",
+    "/assets/imgs/beer.svg": "fb52b5ec62db6fd3ff206ad3ad664a907da169e8",
+    "/assets/imgs/burger.svg": "8ea30695976ea6afa8ed0228856ae3d350124ff6",
+    "/assets/imgs/cartoes2.png": "790decf85e20450af38f0665531f19009f0c957a",
+    "/assets/imgs/fried-potatoes.svg": "cd0e3ffed8121ca1e64790a903fb67f7d7c13d1d",
+    "/assets/imgs/home.svg": "0cd479a1310d18161401a691d20a857cc477e502",
+    "/assets/imgs/pancakes.svg": "55f19b81fecf484d9120b4db6ffec017a967499a",
+    "/assets/imgs/pizza-slice.svg": "0776db716ae677e60b46367d80104fd91ddc3b63",
+    "/assets/imgs/pizzaria-logo3.png": "4d09b7f5baadcdf723896671ceb586b788e7add1",
+    "/background-pizza3.630d934a363b6fcea1d0.jpg": "57b5d7b7b0ba01993fcf9cc322bab0f2ffe369a5",
+    "/favicon.ico": "458177eec9cf379d2a9fab2d2f7c102af94ee731",
+    "/index.html": "18909c581e868cdc3150b16455661de2c308954d",
+    "/main-es2015.c1532030020de38afab5.js": "af184a5ae5396e08a7601fd561d97f0a68f6ac3c",
+    "/main-es5.708176dabe88ca58d75b.js": "5e48d2cc040882f14dba09592101fd0380e2ca45",
+    "/polyfills-es2015.1df8671266ff0d96050e.js": "058203dab4ba87056d6976029ba60fa42e6f75b9",
+    "/polyfills-es5.cec89b470e258e73dbed.js": "7e1b38fcb73a9607657630e25f278302170f96dc",
+    "/runtime-es2015.10a1f01eef199006286d.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/runtime-es5.9ad22a88fcc70a015907.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/scripts.70a6412b0712df4356f7.js": "154252f207dc57f09b56d9ec6e582851c89ea16b",
+    "/styles.bd9f06ac540497c8db0a.css": "1b14b8a51719788369de7235e0abfefe7d09a0d4"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
