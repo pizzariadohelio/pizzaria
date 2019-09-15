@@ -21,4 +21,49 @@
       <span class="secondary-content-price"><b>R$ {{ panqueca.preco }}</b></span>
     </li>
   </ul>
-</main>
+  <ul class="collection with-header" *ngIf="menuPage == 'porcoes'">
+    <li class="collection-header"><h4>Porções</h4></li>
+    <li class="collection-item avatar" *ngFor="let porcao of porcoes">
+      <span class="title"><b>{{ porcao.titulo }}</b></span>
+      <span class="secondary-content-price"><b>R$ {{ porcao.preco }}</b></span>
+    </li>
+  </ul>
+  <ul class="collection with-header" *ngIf="menuPage == 'bebidas'">
+    <li class="collection-header"><h4>Bebidas</h4></li>
+    <li class="collection-item avatar" *ngFor="let bebida of bebidas">
+      <p style="font-size: 1.6em; margin: 0 0 8px 0;" *ngIf="bebida.titulo == 'Garrafa'"><b>Cerveja</b></p>
+      <p style="font-size: 1.6em; margin: 0 0 8px 0;" *ngIf="bebida.titulo == '2 Litros'"><b>Refrigerante</b></p>
+      <span class="title"><b>{{ bebida.titulo }}</b></span>
+      <span class="secondary-content-price"><b>R$ {{ bebida.preco }}</b></span>
+    </li>
+  </ul>
+  <ul class="collection with-header" *ngIf="menuPage == 'bebidas'">
+    <li class="collection-header"><h4>Sucos</h4></li>
+    <li class="collection-item avatar" *ngFor="let suco of sucos">
+      <span class="title"><b>{{ suco.titulo }}</b></span>
+      <span class="secondary-content-price">c/ água&nbsp;&nbsp;<b>R$ {{ suco.precoA }}</b></span>
+      <span class="secondary-content-price secondary-content-top">c/ leite&nbsp;&nbsp;<b>R$ {{ suco.precoL }}</b></span>
+    </li>
+  </ul>
+  <ul class="collection with-header" *ngIf="menuPage == 'bebidas'">
+    <li class="collection-header"><h4>Batidas</h4></li>
+    <li class="collection-item avatar" *ngFor="let batida of batidas">
+      <span class="title"><b>{{ batida.titulo }}</b></span>
+      <span class="secondary-content-price"><b>R$ {{ batida.preco }}</b></span>
+    </li>
+  </ul>
+  <ul class="collection with-header" *ngIf="menuPage == 'bebidas'">
+    <li class="collection-header"><h4>Doses</h4></li>
+    <li class="collection-item avatar" *ngFor="let dose of doses">
+      <span class="title"><b>{{ dose.titulo }}</b></span>
+      <span class="secondary-content-price"><b>R$ {{ dose.preco }}</b></span>
+    </li>
+  </ul>
+  <ul class="collection with-header" *ngIf="menuPage == 'bebidas'">
+    <li class="collection-header"><h4>Especial Drink's</h4></li>
+    <li class="collection-item avatar" *ngFor="let especial of especials">
+      <span class="title"><b>{{ especial.titulo }}</b></span>
+      <span class="secondary-content-price"><b>R$ {{ especial.preco }}</b></span>
+    </li>
+  </ul>
+</main> 
